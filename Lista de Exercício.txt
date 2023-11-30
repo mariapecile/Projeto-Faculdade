@@ -1,0 +1,1034 @@
+Nome: Maria Clara de Jesus Barbosa Pecile
+
+Exercício 1 
+HTML 
+
+
+Crie uma página HTML simples com um cabeçalho, um parágrafo e uma lista não ordenada. 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página HTML</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4a90e2;
+            padding: 15px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-weight: 700;
+        }
+
+        section {
+            margin-top: 20px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        h2 {
+            color: #4a90e2;
+            font-weight: 700;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Exercício de Desenvolvimento Web</h1>
+    </header>
+
+    <section>
+        <p>Este é um parágrafo simples na minha página HTML para o primeiro exercício.</p>
+    </section>
+
+    <section>
+        <h2>Lista não ordenada como pedido: Tópicos abordados</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+
+Exercício 2
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Usuário</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #800080; /* roxo violeta */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #800080; /* roxo violeta */
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Exercício Desenvolvimento Web 2</h1>
+
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
+
+Exercício 3 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #800080; /* roxo violeta */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #800080; /* roxo violeta */
+            color: #fff;
+            font-weight: 700;
+        }
+
+        td {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tabela de Produtos</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto 1</td>
+                <td>R$ 50,00</td>
+                <td>5</td>
+                <td>R$ 250,00</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>R$ 30,00</td>
+                <td>10</td>
+                <td>R$ 300,00</td>
+            </tr>
+            <tr>
+                <td>Produto 3</td>
+                <td>R$ 25,00</td>
+                <td>8</td>
+                <td>R$ 200,00</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
+Exercício 4
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #800080; /* roxo violeta */
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+            font-size: 16px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #800080; /* roxo violeta */
+            color: #fff;
+            padding: 14px 28px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Entre em Contato</h1>
+
+    <form>
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Seu E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto:</label>
+        <input type="text" id="assunto" name="assunto" required>
+
+        <label for="mensagem">Sua Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+</body>
+</html>
+
+CSS
+Estilize a página HTML do exercício 1 usando CSS para definir cores de fundo, fontes e margens.
+Exerício 1
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #800080; /* roxo violeta */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            margin: 0;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        h2 {
+            color: #800080; /* roxo violeta */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Título da Página</h1>
+    </header>
+
+    <section>
+        <p>Exercício da matéria de Desenvolvimento Web.</p>
+    </section>
+
+    <section>
+        <h2>Lista não ordenada como pedido: Tópicos abordados</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </section>
+
+</body>
+</html>
+
+Exercício 2 
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Duas Colunas</title>
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .coluna {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+
+        .texto {
+            background-color: #fff;
+            border-right: 1px solid #ccc;
+        }
+
+        .imagem {
+            background-color: #f9f9f9;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="coluna texto">
+            <h2>The Eras Tour - Taylor Swift</h2>
+            <p>A "The Eras Tour" é a turnê mundial da Taylor Swift que celebra as diferentes eras de sua carreira musical. Durante a turnê, Taylor apresenta uma jornada através de suas várias fases artísticas, destacando os álbuns que marcaram cada era, desde o country até o pop.</p>
+        </div>
+        
+        <div class="coluna imagem">
+            <h2>Imagem da The Eras Tour</h2>
+            <img src="https://assets.dmi.umgapps.com/assets/taylor-swift/meta/1678567321897-share.jpg" alt="The Eras Tour">
+        </div>
+    </div>
+
+</body>
+</html>
+
+Exercício 2 
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Eras Tour - Taylor Swift</title>
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+
+        .coluna {
+            float: left;
+            width: 50%;
+            box-sizing: border-box;
+            padding: 30px;
+        }
+
+        .texto {
+            background-color: #1e1e1e;
+        }
+
+        .imagem {
+            background-color: #161616;
+        }
+
+        h2 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #fff;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="coluna texto">
+            <h2>The Eras Tour - Taylor Swift</h2>
+            <p>A "The Eras Tour" é a turnê mundial da Taylor Swift que celebra as diferentes eras de sua carreira musical. Durante a turnê, Taylor apresenta uma jornada através de suas várias fases artísticas, destacando os álbuns que marcaram cada era, desde o country até o pop.</p>
+        </div>
+        
+        <div class="coluna imagem">
+            <h2>Imagem da The Eras Tour</h2>
+            <img src="https://assets.dmi.umgapps.com/assets/taylor-swift/meta/1678567321897-share.jpg" alt="The Eras Tour">
+        </div>
+    </div>
+
+</body>
+</html>
+
+JavaScript
+
+Exercício 1
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão com Alerta</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #8e44ad; /* Cor roxo violeta */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6c3483; /* Tom mais escuro no hover */
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="exibirAlerta()">Clique aqui</button>
+
+    <script>
+        function exibirAlerta() {
+            alert("Olá! Você clicou no botão!");
+        }
+    </script>
+
+</body>
+</html>
+
+Exercício 2 
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alteração de Conteúdo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f7f7f7; /* Fundo cinza claro */
+            color: #333; /* Cor do texto */
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #8e44ad; /* Cor roxo violeta */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6c3483; /* Tom mais escuro no hover */
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: bold;
+            font-style: italic;
+            color: #555; /* Cor do texto mais escura */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Alteração de Conteúdo</h1>
+    <button onclick="alterarConteudo()">Clique para Alterar</button>
+    <p id="conteudo">Olá, professor! Clique no botão para ver a alteração. Uma frase inicial está presente.</p>
+
+    <script>
+        function alterarConteudo() {
+            var conteudo = document.getElementById('conteudo');
+            if (conteudo.innerHTML.includes('Olá, professor')) {
+                conteudo.innerHTML = 'Tchau, professor!';
+            } else {
+                conteudo.innerHTML = 'Olá, professor! Clique no botão para ver a alteração. Uma frase inicial está presente.';
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+Exercício 3 
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Validação</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f7f7f7; /* Fundo cinza claro */
+            color: #333; /* Cor do texto */
+        }
+
+        h1 {
+            color: #8e44ad; /* Cor roxo violeta para o título */
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff; /* Fundo branco para o formulário */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc; /* Borda cinza para os campos de entrada */
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #8e44ad; /* Cor roxo violeta para o botão */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #6c3483; /* Tom mais escuro no hover */
+        }
+
+        .error-message {
+            color: #e74c3c; /* Vermelho escuro para mensagens de erro */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulário com Validação</h1>
+
+    <form onsubmit="return validarFormulario()">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <button type="submit">Enviar</button>
+
+        <p class="error-message" id="error-message"></p>
+    </form>
+
+    <script>
+        function validarFormulario() {
+            var nome = document.getElementById('nome').value;
+            var email = document.getElementById('email').value;
+            var errorMessage = document.getElementById('error-message');
+
+            if (nome.trim() === '' || email.trim() === '') {
+                errorMessage.textContent = 'Por favor, preencha todos os campos.';
+                return false;
+            } else {
+                errorMessage.textContent = '';
+                // Aqui você pode enviar o formulário ou realizar outras ações necessárias
+                return true;
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+Exercício 4
+
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="calculator">
+        <h1>Calculadora Simples</h1>
+        <div class="display" id="display">0</div>
+        <div class="buttons">
+            <button onclick="appendNumber('7')">7</button>
+            <button onclick="appendNumber('8')">8</button>
+            <button onclick="appendNumber('9')">9</button>
+            <button onclick="setOperation('/')">/</button>
+            <button onclick="appendNumber('4')">4</button>
+            <button onclick="appendNumber('5')">5</button>
+            <button onclick="appendNumber('6')">6</button>
+            <button onclick="setOperation('*')">*</button>
+            <button onclick="appendNumber('1')">1</button>
+            <button onclick="appendNumber('2')">2</button>
+            <button onclick="appendNumber('3')">3</button>
+            <button onclick="setOperation('-')">-</button>
+            <button onclick="appendNumber('0')">0</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="setOperation('+')">+</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+styles.css
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.calculator {
+    text-align: center;
+    background-color: #8a2be2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.display {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a1a9a;
+}
+
+script.js
+let currentInput = '';
+let currentOperation = null;
+let firstOperand = null;
+
+function appendNumber(number) {
+    currentInput += number;
+    updateDisplay();
+}
+
+function setOperation(operation) {
+    if (currentOperation !== null) {
+        calculateResult();
+    }
+    firstOperand = currentInput;
+    currentInput = '';
+    currentOperation = operation;
+}
+
+function calculateResult() {
+    if (currentOperation === null || firstOperand === null) {
+        return;
+    }
+    let result;
+    const secondOperand = currentInput;
+    switch (currentOperation) {
+        case '+':
+            result = parseFloat(firstOperand) + parseFloat(secondOperand);
+            break;
+        case '-':
+            result = parseFloat(firstOperand) - parseFloat(secondOperand);
+            break;
+        case '*':
+            result = parseFloat(firstOperand) * parseFloat(secondOperand);
+            break;
+        case '/':
+            result = parseFloat(firstOperand) / parseFloat(secondOperand);
+            break;
+        default:
+            return;
+    }
+    currentInput = result.toString();
+    currentOperation = null;
+    firstOperand = null;
+    updateDisplay();
+}
+
+function clearDisplay() {
+    currentInput = '';
+    currentOperation = null;
+    firstOperand = null;
+    updateDisplay();
+}
+
+function updateDisplay() {
+    document.getElementById('display').innerText = currentInput || '0';
+}
+
+
+Exercício 5 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+
+        h1 {
+            color: #8a2be2;
+        }
+
+        #board {
+            display: grid;
+            grid-template-columns: repeat(3, 100px);
+            grid-gap: 5px;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            font-size: 36px;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #8a2be2;
+            color: #fff;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        .cell:hover {
+            background-color: #6a1a9a;
+        }
+
+        h2 {
+            text-align: center;
+            color: #8a2be2;
+        }
+    </style>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+
+    <h1>JOGO DA VELHA</h1>
+
+    <h2 id="status">Vez do Jogador X</h2>
+
+    <div id="board" onclick="handleClick(event)">
+        <!-- Células do tabuleiro -->
+    </div>
+
+    <script>
+        let board = ['', '', '', '', '', '', '', '', ''];
+        let currentPlayer = 'X';
+        let gameActive = true;
+
+        function handleClick(event) {
+            if (!gameActive || event.target.className !== 'cell' || board[event.target.dataset.index] !== '') {
+                return;
+            }
+
+            const index = event.target.dataset.index;
+            board[index] = currentPlayer;
+            updateBoard();
+            checkWinner();
+
+            currentPlayer = (currentPlayer === 'X') ? 'O' : 'X';
+            document.getElementById('status').innerText = `Vez do Jogador ${currentPlayer}`;
+        }
+
+        function updateBoard() {
+            const boardElement = document.getElementById('board');
+            boardElement.innerHTML = '';
+            for (let i = 0; i < 9; i++) {
+                const cell = document.createElement('div');
+                cell.className = 'cell';
+                cell.innerText = board[i];
+                cell.dataset.index = i;
+                boardElement.appendChild(cell);
+            }
+        }
+
+        function checkWinner() {
+            const winPatterns = [
+                [0, 1, 2], [3, 4, 5], [6, 7, 8], // rows
+                [0, 3, 6], [1, 4, 7], [2, 5, 8], // columns
+                [0, 4, 8], [2, 4, 6]             // diagonals
+            ];
+
+            for (const pattern of winPatterns) {
+                const [a, b, c] = pattern;
+                if (board[a] !== '' && board[a] === board[b] && board[a] === board[c]) {
+                    document.getElementById('status').innerText = `Jogador ${board[a]} venceu!`;
+                    gameActive = false;
+                    return;
+                }
+            }
+
+            if (!board.includes('')) {
+                document.getElementById('status').innerText = 'Empate!';
+                gameActive = false;
+            }
+        }
+
+        // Inicializar o tabuleiro
+        updateBoard();
+    </script>
+
+</body>
+</html>
